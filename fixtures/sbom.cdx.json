@@ -1,0 +1,1 @@
+{"bomFormat":"CycloneDX","components":[{"name":"langflow","type":"library","version":"1.10.3"},{"name":"mcp","type":"library","version":"1.29.9"},{"name":"requests","type":"library","version":"2.32.3"}],"specVersion":"1.5","version":1}

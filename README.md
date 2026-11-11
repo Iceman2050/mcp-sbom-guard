@@ -1,5 +1,7 @@
 # mcp-sbom-guard
 
+**Related:** [agent-skill-sbom](https://github.com/Iceman2050/agent-skill-sbom) — generates SBOMs for agent skills and maps their dependency and trust chains.
+
 CI-ready **verifier** for deployed MCP servers' SBOMs. October 2026 was the worst month yet for Model Context Protocol security — Langflow RCE (CVSS 9.9), fetch-server SSRF, x64dbg no-auth (9.3), SDK OAuth credential theft. Tools like `gkhays/mcp-sbom-server` *generate* SBOMs via MCP; **nobody verifies them against the CVE firehose**. That's this tool: point it at a deployment manifest or a CycloneDX SBOM from your pipeline and it fails CI (exit 2) on known-vulnerable versions.
 
 **News hook (2026-10-18):** October 2026's MCP vulnerability cluster —
